@@ -11,6 +11,7 @@ public class PigMove : MonoBehaviour {
     // speed: velocidade de desprazamento.
     public GameObject goal;
     Vector3 direction;
+    Vector3 lookAwayPoint;
     public float speed = 5f;
 
     // LateUpdate chámase despois de Update en cada fotograma.
